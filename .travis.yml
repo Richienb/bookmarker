@@ -14,7 +14,7 @@ install:
 
 script:
     - yarn compile
-    - node bookmarklet.min.js
+    - node bookmarker.min.js
     - if [ -n "$TRAVIS_TAG" ]; then npm version $TRAVIS_TAG; fi
 
 deploy:
@@ -24,13 +24,13 @@ deploy:
       api_key:            $npm_token
       on:
           tags:           true
-          repo:           Richienb/bookmarklet
+          repo:           Richienb/bookmarker
 
     -   provider:         releases
         api_key:          $github_token
         file_glob:        true
-        file:             bookmarklet.*
+        file:             bookmarker.*
         skip_cleanup:     true
         on:
             tags:           true
-            repo:           Richienb/bookmarklet
+            repo:           Richienb/bookmarker
