@@ -1,13 +1,13 @@
 {
-  "name": "bookmarklet",
+  "name": "bookmarker",
   "description": "A window.open JavaScript wrapper.",
   "version": "0.0.0",
-  "main": "bookmarklet.js",
+  "main": "bookmarker.js",
   "scripts": {
-    "start": "node bookmarklet.js",
-    "compile": "google-closure-compiler --compilation_level=bundle --js=bookmarklet.js --js_output_file=bookmarklet.min.js"
+    "start": "node bookmarker.js",
+    "compile": "google-closure-compiler --compilation_level=bundle --js=bookmarker.js --js_output_file=bookmarker.min.js"
   },
-  "repository": "https://github.com/Richienb/bookmarklet.git",
+  "repository": "https://github.com/Richienb/bookmarker.git",
   "author": "Richie Bendall <richiebendall@gmail.com>",
   "license": "MIT",
   "devDependencies": {
