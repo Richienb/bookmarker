@@ -1,6 +1,6 @@
 const Bookmarker = ({
     url,
-    title,
+    title = "",
     useFallBack = true
 } = {}) => {
 
