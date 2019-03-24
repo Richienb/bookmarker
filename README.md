@@ -1,9 +1,9 @@
-[![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/bookmarklet/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/bookmarklet)
-[![CodeFactor Score](https://www.codefactor.io/repository/github/Richienb/bookmarklet/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/Richienb/bookmarklet)
+[![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/bookmarker/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/bookmarker)
+[![CodeFactor Score](https://www.codefactor.io/repository/github/Richienb/bookmarker/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/Richienb/bookmarker)
 
-# Bookmarklet
+# Bookmarker
 
-[![NPM](https://nodei.co/npm/bookmarklet.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/bookmarklet)
+[![NPM](https://nodei.co/npm/bookmarker.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/bookmarker)
 
 A cross-browser solution to bookmarking a URL.
 
@@ -12,19 +12,19 @@ A cross-browser solution to bookmarking a URL.
 From your NodeJS application:
 
 ```js
-const Bookmarklet = require("bookmarklet")
+const Bookmarker = require("bookmarker")
 ```
 
 From your web application:
 
 ```html
-<script src="https://unpkg.com/bookmarklet/bookmarklet.min.js"></script>
+<script src="https://unpkg.com/bookmarker/bookmarker.min.js"></script>
 ```
 
 ## Usage
 
 ```js
-Bookmarklet(
+Bookmarker(
     {
         url: "https://example.com", // URL
         title: "Example Website" // Title (Default: Automatically detected)
